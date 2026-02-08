@@ -55,4 +55,6 @@ data/
 *.nrrd
 *.mha
 
+inference/inputs/
+inference/outputs/
 
