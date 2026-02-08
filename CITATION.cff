@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below (and also cite AMOS22 and nnU-Net)."
+title: "abdomen-multiorgan-segmentation"
+type: software
+authors:
+  - family-names: Yu
+    given-names: Hyeon
+repository-code: "https://github.com/hyeonyu-IR/abdomen-multiorgan-segmentation"
+keywords:
+  - medical imaging
+  - segmentation
+  - nnU-Net
+  - MONAI
+  - AMOS22
+preferred-citation:
+  type: article
+  title: "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation"
+  authors:
+    - family-names: Isensee
+      given-names: Fabian
+    - family-names: Jaeger
+      given-names: Paul F.
+    - family-names: Kohl
+      given-names: Simon A. A.
+    - family-names: Petersen
+      given-names: Jens
+    - family-names: Maier-Hein
+      given-names: Klaus H.
+  journal: "Nature Methods"
+  year: 2021
+  volume: 18
+  pages: "203-211"
+  doi: "10.1038/s41592-020-01008-z"
