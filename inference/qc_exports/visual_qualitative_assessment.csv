@@ -1,0 +1,14 @@
+Case,Liver,Stomach,Pancreas,Kidney,Adrenal,Spleen,Bladder,Prostate/Uterus,Aorta,Overall,Notes,,Suggested grading scale:
+AMOS22_amos_0023,Excellent,Excellent,Good,Excellent,Good,Excellent,Excellent,Good,Excellent,Good,Even liver dome segmentation is excellent,,Excellent — near-radiologist quality
+AMOS22_amos_0054,Excellent,Excellent,Poor,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Overall Excellent,,Good — minor imperfections
+AMOS22_amos_0022,Excellent,Excellent,Excellent,Excellent,Fair,Excellent,Excellent,Excellent,Excellent,Good,Very good overall performance,,Fair — noticeable error but usable
+AMOS22_amos_0088,Excellent,Good,Failure,Excellent,Fair,Good,Excellent,Excellent,Excellent,Good,Poor pancreas segmentation/hiatal hernia,,Failure — clinically unacceptable
+AMOS22_amos_0254,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Perfect Segmentation Example,,
+AMOS22_amos_0259,Excellent,Excellent,Excellent,Excellent,Good,Excellent,Excellent,Excellent,Excellent,Excellent,Distended Stomach,,
+AMOS22_amos_0263,Excellent,Excellent,Excellent,Excellent,Good,Excellent,Excellent,Excellent,Excellent,Excellent,"Ectopic kidney in the bladder, appropriately segmented",,
+AMOS22_amos_0264,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,"Intestinal obstruction and dilated bowel loop due to malignancy, despite this bladder segmentation was excellent",,
+AMOS22_amos_0268,Excellent,Excellent,Good,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,"Severely distended bladder, properly segmented",,
+AMOS22_amos_0272,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,"Contrast-filled contracted bladder, but properly segmented",,
+AMOS22_amos_0273,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,"Calcified uterine fibroids, but properly segmented",,
+AMOS22_amos_0274,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,"Big cyst in the right renal cortex, but properly segmented including the cyst",,
+AMOS22_amos_0276,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent,Excellent overall segmentation despite almost empted bladder,,
