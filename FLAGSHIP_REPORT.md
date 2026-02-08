@@ -1,5 +1,5 @@
 
-# Flagship Report — AMOS22 Multi‑Organ Segmentation (nnU‑Net)
+# Report — AMOS22 Multi‑Organ Segmentation (nnU‑Net)
 
 ## Abstract
 **Purpose:** Establish a reproducible baseline for automated abdominal multi‑organ segmentation using nnU‑Net with structured cross‑validation and radiologist‑led qualitative assessment.
