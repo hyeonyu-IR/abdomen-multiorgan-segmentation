@@ -1,0 +1,824 @@
+{
+  "data_root": "C:\\Users\\hyeon\\Documents\\miniconda_medimg_env\\data\\amos22",
+  "total_files": 964,
+  "extensions": {
+    ".json": 1,
+    ".csv": 1,
+    ".md": 1,
+    "<no_ext>": 1,
+    ".nii.gz": 960
+  },
+  "top_level_folders": {
+    "dataset.json": 1,
+    "labeled_data_meta_0000_0599.csv": 1,
+    "readme.md": 1,
+    "imagesTr": 241,
+    "imagesTs": 240,
+    "imagesVa": 120,
+    "labelsTr": 240,
+    "labelsVa": 120
+  },
+  "max_depth_preview": 4,
+  "tree_preview_first_200": [
+    {
+      "kind": "file",
+      "path": "dataset.json"
+    },
+    {
+      "kind": "dir",
+      "path": "imagesTr"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/.DS_Store"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0001.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0004.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0005.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0006.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0007.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0009.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0010.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0011.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0014.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0015.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0016.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0017.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0019.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0021.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0023.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0024.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0025.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0027.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0030.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0033.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0035.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0036.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0038.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0042.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0043.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0044.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0045.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0047.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0048.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0049.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0050.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0052.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0054.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0057.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0058.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0059.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0060.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0064.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0066.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0067.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0069.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0071.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0072.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0075.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0076.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0077.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0078.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0079.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0081.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0083.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0084.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0086.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0088.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0089.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0092.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0094.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0097.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0098.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0099.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0102.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0103.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0104.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0105.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0109.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0110.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0111.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0113.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0115.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0116.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0118.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0119.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0121.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0124.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0125.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0126.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0127.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0129.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0131.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0133.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0134.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0135.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0137.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0138.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0141.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0142.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0143.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0147.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0149.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0152.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0153.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0154.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0156.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0158.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0159.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0160.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0161.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0162.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0166.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0170.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0171.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0172.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0173.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0175.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0177.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0179.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0180.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0181.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0184.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0185.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0186.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0188.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0190.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0192.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0193.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0195.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0196.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0197.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0198.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0199.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0212.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0214.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0215.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0217.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0224.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0225.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0226.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0230.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0231.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0235.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0237.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0239.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0242.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0245.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0248.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0249.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0254.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0259.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0263.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0264.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0268.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0272.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0273.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0274.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0276.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0279.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0281.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0282.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0288.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0294.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0296.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0297.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0299.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0301.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0302.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0307.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0317.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0320.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0321.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0330.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0332.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0336.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0337.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0341.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0348.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0349.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0350.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0351.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0353.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0358.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0361.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0362.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0366.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0367.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0370.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0371.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0374.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0376.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0378.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0379.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0380.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0381.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0383.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0384.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0387.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0388.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0390.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0391.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0392.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0395.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0396.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0398.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0400.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0401.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0402.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0403.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0404.nii.gz"
+    },
+    {
+      "kind": "file",
+      "path": "imagesTr/amos_0405.nii.gz"
+    }
+  ]
+}

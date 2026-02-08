@@ -1,0 +1,44 @@
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.venv/
+.env
+
+# --- Data (never commit) ---
+data/
+**/data/
+*.nii
+*.nii.gz
+
+# --- nnU-Net runtime folders (never commit) ---
+nnunet_raw/
+nnunet_preprocessed/
+nnunet_results/
+
+# If your nnU-Net dirs are outside repo, keep ignore anyway.
+# If you happened to copy any results into repo, do not commit:
+**/fold_*/validation/*.nii.gz
+**/validation/*.nii.gz
+**/*.npz
+**/*.pkl
+
+# --- Outputs / runs ---
+outputs/
+runs/
+logs/
+*.log
+
+# --- Large artifacts (optional) ---
+*.pt
+*.pth
+*.ckpt

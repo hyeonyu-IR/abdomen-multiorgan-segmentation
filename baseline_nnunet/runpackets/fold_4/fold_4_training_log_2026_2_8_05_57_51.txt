@@ -1,0 +1,108 @@
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+ 
+2026-02-08 05:57:52.323604: Using splits from existing split file: C:\Users\hyeon\Documents\miniconda_medimg_env\data\nnunet_amos22\nnunet_preprocessed\Dataset701_AMOS22\splits_final.json 
+2026-02-08 05:57:52.333604: The split file contains 5 splits. 
+2026-02-08 05:57:52.340603: Desired fold for training: 4 
+2026-02-08 05:57:52.348603: This split has 192 training and 48 validation cases. 
+2026-02-08 05:57:52.355604: predicting AMOS22_amos_0004 
+2026-02-08 05:57:53.038403: AMOS22_amos_0004, shape torch.Size([1, 195, 513, 513]), rank 0 
+2026-02-08 05:58:25.871587: predicting AMOS22_amos_0011 
+2026-02-08 05:58:26.712188: AMOS22_amos_0011, shape torch.Size([1, 230, 513, 513]), rank 0 
+2026-02-08 05:59:04.309372: predicting AMOS22_amos_0017 
+2026-02-08 05:59:05.197757: AMOS22_amos_0017, shape torch.Size([1, 228, 513, 513]), rank 0 
+2026-02-08 05:59:42.614774: predicting AMOS22_amos_0042 
+2026-02-08 05:59:43.475206: AMOS22_amos_0042, shape torch.Size([1, 222, 513, 513]), rank 0 
+2026-02-08 06:00:15.689135: predicting AMOS22_amos_0049 
+2026-02-08 06:00:16.634135: AMOS22_amos_0049, shape torch.Size([1, 240, 500, 500]), rank 0 
+2026-02-08 06:00:54.556347: predicting AMOS22_amos_0052 
+2026-02-08 06:00:55.772726: AMOS22_amos_0052, shape torch.Size([1, 255, 601, 601]), rank 0 
+2026-02-08 06:01:46.890981: predicting AMOS22_amos_0058 
+2026-02-08 06:01:48.058981: AMOS22_amos_0058, shape torch.Size([1, 238, 590, 590]), rank 0 
+2026-02-08 06:02:38.953825: predicting AMOS22_amos_0060 
+2026-02-08 06:02:40.172826: AMOS22_amos_0060, shape torch.Size([1, 280, 519, 519]), rank 0 
+2026-02-08 06:03:23.415712: predicting AMOS22_amos_0075 
+2026-02-08 06:03:25.321712: AMOS22_amos_0075, shape torch.Size([1, 210, 513, 513]), rank 0 
+2026-02-08 06:03:59.862236: predicting AMOS22_amos_0102 
+2026-02-08 06:04:01.476494: AMOS22_amos_0102, shape torch.Size([1, 252, 622, 622]), rank 0 
+2026-02-08 06:04:52.638243: predicting AMOS22_amos_0110 
+2026-02-08 06:04:54.190243: AMOS22_amos_0110, shape torch.Size([1, 300, 513, 513]), rank 0 
+2026-02-08 06:05:42.517750: predicting AMOS22_amos_0127 
+2026-02-08 06:05:43.335752: AMOS22_amos_0127, shape torch.Size([1, 192, 513, 513]), rank 0 
+2026-02-08 06:06:10.316293: predicting AMOS22_amos_0131 
+2026-02-08 06:06:13.083205: AMOS22_amos_0131, shape torch.Size([1, 280, 641, 641]), rank 0 
+2026-02-08 06:07:29.288752: predicting AMOS22_amos_0137 
+2026-02-08 06:07:31.047331: AMOS22_amos_0137, shape torch.Size([1, 335, 671, 671]), rank 0 
+2026-02-08 06:09:08.112612: predicting AMOS22_amos_0149 
+2026-02-08 06:09:11.061731: AMOS22_amos_0149, shape torch.Size([1, 242, 593, 593]), rank 0 
+2026-02-08 06:10:03.163326: predicting AMOS22_amos_0156 
+2026-02-08 06:10:04.395326: AMOS22_amos_0156, shape torch.Size([1, 170, 490, 490]), rank 0 
+2026-02-08 06:10:31.794501: predicting AMOS22_amos_0166 
+2026-02-08 06:10:33.192501: AMOS22_amos_0166, shape torch.Size([1, 202, 513, 513]), rank 0 
+2026-02-08 06:11:05.903995: predicting AMOS22_amos_0173 
+2026-02-08 06:11:07.363698: AMOS22_amos_0173, shape torch.Size([1, 270, 624, 624]), rank 0 
+2026-02-08 06:12:06.116574: predicting AMOS22_amos_0180 
+2026-02-08 06:12:06.917574: AMOS22_amos_0180, shape torch.Size([1, 212, 529, 529]), rank 0 
+2026-02-08 06:12:39.194373: predicting AMOS22_amos_0193 
+2026-02-08 06:12:40.544373: AMOS22_amos_0193, shape torch.Size([1, 290, 581, 581]), rank 0 
+2026-02-08 06:13:46.519809: predicting AMOS22_amos_0195 
+2026-02-08 06:13:49.254810: AMOS22_amos_0195, shape torch.Size([1, 335, 625, 625]), rank 0 
+2026-02-08 06:15:02.881998: predicting AMOS22_amos_0196 
+2026-02-08 06:15:03.744997: AMOS22_amos_0196, shape torch.Size([1, 222, 513, 513]), rank 0 
+2026-02-08 06:15:36.291070: predicting AMOS22_amos_0199 
+2026-02-08 06:15:37.400069: AMOS22_amos_0199, shape torch.Size([1, 238, 520, 520]), rank 0 
+2026-02-08 06:16:16.324226: predicting AMOS22_amos_0212 
+2026-02-08 06:16:17.521227: AMOS22_amos_0212, shape torch.Size([1, 215, 358, 358]), rank 0 
+2026-02-08 06:16:32.208865: predicting AMOS22_amos_0225 
+2026-02-08 06:16:32.956866: AMOS22_amos_0225, shape torch.Size([1, 214, 370, 370]), rank 0 
+2026-02-08 06:16:47.320865: predicting AMOS22_amos_0230 
+2026-02-08 06:16:48.216865: AMOS22_amos_0230, shape torch.Size([1, 202, 431, 431]), rank 0 
+2026-02-08 06:17:10.641866: predicting AMOS22_amos_0237 
+2026-02-08 06:17:11.947462: AMOS22_amos_0237, shape torch.Size([1, 294, 431, 431]), rank 0 
+2026-02-08 06:17:45.432940: predicting AMOS22_amos_0242 
+2026-02-08 06:17:46.528734: AMOS22_amos_0242, shape torch.Size([1, 243, 424, 424]), rank 0 
+2026-02-08 06:18:12.728071: predicting AMOS22_amos_0248 
+2026-02-08 06:18:13.944545: AMOS22_amos_0248, shape torch.Size([1, 245, 452, 452]), rank 0 
+2026-02-08 06:18:40.159700: predicting AMOS22_amos_0264 
+2026-02-08 06:18:41.398916: AMOS22_amos_0264, shape torch.Size([1, 234, 478, 478]), rank 0 
+2026-02-08 06:19:07.518723: predicting AMOS22_amos_0274 
+2026-02-08 06:19:08.902724: AMOS22_amos_0274, shape torch.Size([1, 291, 451, 451]), rank 0 
+2026-02-08 06:19:42.736134: predicting AMOS22_amos_0276 
+2026-02-08 06:19:43.469163: AMOS22_amos_0276, shape torch.Size([1, 192, 401, 401]), rank 0 
+2026-02-08 06:20:02.117092: predicting AMOS22_amos_0349 
+2026-02-08 06:20:02.922092: AMOS22_amos_0349, shape torch.Size([1, 250, 461, 461]), rank 0 
+2026-02-08 06:20:29.015839: predicting AMOS22_amos_0351 
+2026-02-08 06:20:29.966407: AMOS22_amos_0351, shape torch.Size([1, 213, 461, 461]), rank 0 
+2026-02-08 06:20:52.360869: predicting AMOS22_amos_0361 
+2026-02-08 06:20:53.245870: AMOS22_amos_0361, shape torch.Size([1, 210, 519, 519]), rank 0 
+2026-02-08 06:21:25.305092: predicting AMOS22_amos_0387 
+2026-02-08 06:21:26.442093: AMOS22_amos_0387, shape torch.Size([1, 262, 573, 573]), rank 0 
+2026-02-08 06:22:24.583092: predicting AMOS22_amos_0388 
+2026-02-08 06:22:25.259093: AMOS22_amos_0388, shape torch.Size([1, 205, 474, 474]), rank 0 
+2026-02-08 06:22:47.763907: predicting AMOS22_amos_0396 
+2026-02-08 06:22:48.983908: AMOS22_amos_0396, shape torch.Size([1, 215, 633, 633]), rank 0 
+2026-02-08 06:23:33.098055: predicting AMOS22_amos_0508 
+2026-02-08 06:23:33.767054: AMOS22_amos_0508, shape torch.Size([1, 224, 154, 467]), rank 0 
+2026-02-08 06:23:40.095232: predicting AMOS22_amos_0532 
+2026-02-08 06:23:44.888868: AMOS22_amos_0532, shape torch.Size([1, 108, 429, 537]), rank 0 
+2026-02-08 06:23:59.124499: predicting AMOS22_amos_0540 
+2026-02-08 06:24:02.719931: AMOS22_amos_0540, shape torch.Size([1, 100, 381, 481]), rank 0 
+2026-02-08 06:24:13.922931: predicting AMOS22_amos_0583 
+2026-02-08 06:24:14.805932: AMOS22_amos_0583, shape torch.Size([1, 189, 231, 486]), rank 0 
+2026-02-08 06:24:23.950809: predicting AMOS22_amos_0585 
+2026-02-08 06:24:24.657809: AMOS22_amos_0585, shape torch.Size([1, 108, 393, 486]), rank 0 
+2026-02-08 06:24:35.534584: predicting AMOS22_amos_0586 
+2026-02-08 06:24:36.560584: AMOS22_amos_0586, shape torch.Size([1, 224, 277, 467]), rank 0 
+2026-02-08 06:24:50.082816: predicting AMOS22_amos_0588 
+2026-02-08 06:24:50.896703: AMOS22_amos_0588, shape torch.Size([1, 203, 237, 538]), rank 0 
+2026-02-08 06:25:01.791609: predicting AMOS22_amos_0589 
+2026-02-08 06:25:02.385609: AMOS22_amos_0589, shape torch.Size([1, 189, 231, 486]), rank 0 
+2026-02-08 06:25:11.408278: predicting AMOS22_amos_0590 
+2026-02-08 06:25:12.133279: AMOS22_amos_0590, shape torch.Size([1, 204, 237, 536]), rank 0 
+2026-02-08 06:25:23.295279: predicting AMOS22_amos_0597 
+2026-02-08 06:25:23.973280: AMOS22_amos_0597, shape torch.Size([1, 189, 231, 486]), rank 0 
+2026-02-08 06:26:25.149936: Validation complete 
+2026-02-08 06:26:25.165936: Mean Validation Dice:  0.8621052647963426 
