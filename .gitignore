@@ -11,6 +11,7 @@ __pycache__/
 *.pyo
 *.pyd
 .ipynb_checkpoints/
+**/.ipynb_checkpoints/
 .venv/
 .env
 
@@ -19,11 +20,6 @@ data/
 **/data/
 *.nii
 *.nii.gz
-
-# --- nnU-Net runtime folders (never commit) ---
-nnunet_raw/
-nnunet_preprocessed/
-nnunet_results/
 
 # If your nnU-Net dirs are outside repo, keep ignore anyway.
 # If you happened to copy any results into repo, do not commit:
@@ -42,3 +38,21 @@ logs/
 *.pt
 *.pth
 *.ckpt
+
+# nnU-Net data
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+
+# any nested data folders
+data/
+**/data/
+
+# NEVER COMMIT MEDICAL DATA
+*.dcm
+*.nii
+*.nii.gz
+*.nrrd
+*.mha
+
+
