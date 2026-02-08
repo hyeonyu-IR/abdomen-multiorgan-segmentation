@@ -58,3 +58,7 @@ data/
 inference/inputs/
 inference/outputs/
 
+# inference exports
+inference/qc_exports/
+*.png
+
